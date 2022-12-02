@@ -200,7 +200,7 @@ El boilerplate que les damos contiene esta estructura:
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
-[htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
+[htmlhint]para verificar el `HTML` y
 `JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
 automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
 `npm run test`. En el caso de `JavaScript` estamos usando un archivo de
