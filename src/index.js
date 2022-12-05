@@ -5,6 +5,7 @@ botonCifrar.addEventListener("click", function(){
   const positionToMove = document.getElementById("positionToMove").value;
   const resultEncode = cipher.encode(positionToMove, textToCode.toUpperCase());
   document.getElementById("showConvertedMessage").innerText = resultEncode;
+  
 })
 const botonDescifrar = document.getElementById("Decode");
 botonDescifrar.addEventListener("click", function(){
