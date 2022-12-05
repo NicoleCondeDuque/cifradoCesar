@@ -1,6 +1,7 @@
 const cipher = {
   encode: function (offset, string) {
-    if (typeof offset !== "number" || typeof string !== "string") {
+    const offsetN = parseInt(offset)
+    if (typeof offsetN !== "number" || typeof string !== "string") {
       throw new TypeError("El valor no es correto", "cipher.js", 4)
     }
     let convertedMessage = "";
@@ -13,8 +14,10 @@ const cipher = {
 
   },
   decode: function (offset, string) {
-    if (typeof offset !== "number" || typeof string !== "string") {
-      throw new TypeError("El valor no es correto", "cipher.js", 17)
+
+    const offsetN = parseInt(offset)
+    if (typeof offsetN !== "number" || typeof string !== "string") {
+      throw new TypeError("El valor no es correto", "cipher.js", 4)
     }
     let convertedMessage = "";
     for (let i = 0; i < string.length; i++) {
@@ -26,5 +29,5 @@ const cipher = {
 };
 
 
-
 export default cipher;
+

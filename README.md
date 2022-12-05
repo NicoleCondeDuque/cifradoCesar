@@ -1,3 +1,23 @@
+# WriteMe!
+    Es una herramienta de mensajeria interna para una organizacion de derechos que apoya a las zonas de conflicto, nace de la inmensa necesidad de comunicarse sin limites y ser ese portal de confianza donde podran apoyarte de forma segura.
+
+## Construccion:
+    Se realizaron prototipos a lapiz y diagramas de flujo que nos permitieron entender el comportamiento del usuario al ingresar en la pagina, dando pie a la creacion del Html Semantico basico y  con el POO darle funcionalidad al codigo de forma intuitiva y amigable
+
+## Dirigido a   
+    Hombres, mujeres, ninos , adultos y a todo aquel que deseee comunicarse sin limites.
+
+## Periodo de creacion:
+     la constitucion del proyecto de desplego a lo largo de 2 semanas donde los primeros dias fueron la creacion de el porta, desarrolando forma y colores, luego del 7 dia se le agregaron funciones y objetos.
+
+    
+
+  
+
+
+
+
+
 # Cifrado César
 
 ## Índice
