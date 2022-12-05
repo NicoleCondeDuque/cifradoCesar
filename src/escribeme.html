@@ -1,48 +1,50 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WriteMe!</title>
-  <link rel="stylesheet" href="./style.css">
-  <script src="index.js" type="text/javascript" defer></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WriteMe! | Escribeme </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/Wm! (2).png">
+    <script src="index.js" type="text/javascript" defer></script>
 </head>
 
 <body>
-  <section>
     <section>
-      <h2> WriteMe! </h2>
-      <br>
-      <p>
-        Cifra y decifra tus mensaje sin limite:
-      </p>
-      <br>
+        <section>
+            <h2> WriteMe! </h2>
+            <br>
+            <p>
+                Cifra y decifra tus mensaje sin limite:
+            </p>
+            <br>
+        </section>
     </section>
-  </section>
-  <section>
-    <div class="">
-      <textarea class="texto" type="text" placeholder="Digite el texto a codificar/descifrar"
-        id="textToCode"></textarea>
-      <div class="Botones">
-        <button class="Botones" id="Encode"> Cifrar</button>
-        <button class="Botones" id="Decode">Descifrar</button>
-      </div>
-    </div>
-    <input class="desplazamiento" type="number" placeholder="N.º de desplazamientos" id="positionToMove" />
-    <div>
-      <div class="containerResultado">
-        <p id="showConvertedMessage"></p>
-      </div>
-    </div>
-    <form action="./index.html">
-      <button class="Regresar">Regresar</button>
-    </form>
-  </section>
-  </section>
-  <script src="index.js" type="module"></script>
+    <section>
+        <div>
+            <textarea class="texto" type="text" placeholder="Digite el texto a codificar/descifrar"
+                id="textToCode"></textarea>
+            <h3>N.º de desplazamientos: </h3> <input class="desplazamiento" type="number"
+                placeholder="N.º de desplazamientos" id="positionToMove" />
 
+            <div class="Botones">
+                <button class="Botones" id="Encode"> Cifrar</button>
+                <button class="Botones" id="Decode">Descifrar</button>
+            </div>
+        </div>
 
+        <div>
+            <div class="containerResultado">
+                <p id="showConvertedMessage"></p>
+            </div>
+        </div>
+        <form action="./index.html">
+            <button class="Regresar">Regresar</button>
+        </form>
+    </section>
+    <script src="index.js" type="module"></script>
 </body>
 
 </html>
