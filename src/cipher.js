@@ -14,7 +14,6 @@ const cipher = {
 
   },
   decode: function (offset, string) {
-
     const offsetN = parseInt(offset)
     if (typeof offsetN !== "number" || typeof string !== "string") {
       throw new TypeError("El valor no es correto", "cipher.js", 4)
